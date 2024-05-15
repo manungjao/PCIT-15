@@ -128,8 +128,8 @@ total:'',
 
 // for calculation function
 function doCalculation(){
-    let total="";
-    switch(operator){
+    let total= parseFloat(calc.total);
+    switch(calc.props){
         case '*':
             total *= parseFloat(calc.current); //equivalent to total = total * parsefloat (calc.current)
             break;
